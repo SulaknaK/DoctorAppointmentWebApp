@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Router, Routes } from 'react-router-dom'
 import Home from './pages/Home';
 import Doctors from './pages/Doctors';
 import MyProfile from './pages/MyProfile';
@@ -13,6 +13,7 @@ import Footer from './components/footer';
 
 const App = () => {
   return (
+    <Router  basename="/DoctorAppointmentWebApp"> 
     <div className='mx-4 sm:mx-[10%]'>
       <Navbar></Navbar>
         <Routes>
@@ -28,6 +29,7 @@ const App = () => {
         </Routes>
         <Footer />
     </div>
+    </Router>
   )
 }
 
