@@ -3,16 +3,16 @@ import { assets } from "../assets/assets";
 
 function MyProfile() {
   const [userData, setUserData] = useState({
-    name: "Edward Vincent",
+    name: "Sulakna Karunaratna",
     image: assets.profile_pic,
-    email: "Eddwardbla@gmail.com",
+    email: "SK@gmail.com",
     phone: "+1 123 456 7890",
     address: {
       line1: "hcjgkh",
       line2: "jygfiuolhl",
     },
-    gender: "Male",
-    dob: "1990-09-09",
+    gender: "Female",
+    dob: "0000-00-00",
   });
 
   const [isEdit, setIsEdit] = useState(false);
