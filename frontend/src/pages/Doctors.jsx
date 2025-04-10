@@ -41,8 +41,10 @@ function Doctors() {
                     <p className='w-2 h-2 bg-green-500 rounded-full'></p><p>Available</p>
                     </div>
                 </div>
-                <p className='text-gray-900 text-lg font-medium'>{item.name}</p>
-                <p className='text-gray-600 text-sm'>{item.speciality}</p>
+                <div className='p-2'>
+                  <p className='text-gray-900 text-lg font-medium'>{item.name}</p>
+                  <p className='text-gray-600 text-sm'>{item.speciality}</p>
+                </div>
             </div>
         ))}
         </div>
